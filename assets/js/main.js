@@ -19,16 +19,16 @@ document.getElementById("password_complete").innerHTML = pswName + pswLastName +
 console.log(password_complete)
 
 // stampare sulla pagina la password media
-document.getElementById("psw2_complete").innerHTML = `0${pswName}1${pswLastName}2${pswColor}3`;
+document.getElementById("psw2_complete").innerHTML = `00${pswName}11${pswLastName}22${pswColor}33`;
 console.log(psw2_complete)
 
-let psw1Name = pswName + 22;
+let psw1Name = "." + 00 + pswName + 22;
 console.log(psw1Name);
 
 let psw1LastName = pswLastName + 33;
 console.log(psw1LastName);
 
-let psw1Color = pswColor + "stringa" + "./";
+let psw1Color = pswColor + "stringa" + "./" + 22;
 console.log(psw1Color);
 
 document.getElementById("psw3_complete").innerHTML = `${psw1Name}${psw1LastName}${psw1Color}`;
