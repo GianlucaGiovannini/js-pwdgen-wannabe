@@ -34,7 +34,7 @@ console.log(password_complete)
 document.getElementById("psw2_complete").innerHTML = `00${pswName}11${pswLastName}22${pswColor}33`;
 console.log(psw2_complete)
 
-// stampare sulla pagina la password avanzata
+// stampare sulla pagina la password avanzata ed aggiungere delle varianti con Let che modificano le Const
 let psw1Name = "." + 00 + pswName + 22;
 console.log(psw1Name);
 
